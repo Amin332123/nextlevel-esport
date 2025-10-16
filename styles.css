@@ -948,7 +948,73 @@ i {
 }
 
 
+.team_player  {
+  
+  margin-top: 90px;
+  padding: 10px 120px 120px ;
+}
 
 
+.IMGG {
+  width:100%;
+  
+  border-radius: 40px;
+  outline: 4px solid rgba(85, 164, 243, 0.3);
+  
+  
+  
+ 
+}
+
+.IMGG:hover {
+  transform: translateY(-8px);
+  border-color: rgba(59, 130, 246, 0.5);
+  box-shadow: 0 20px 40px rgba(59, 130, 246, 0.2);
+  transition: transform 0.3s ease;
+  
+}
+
+.equipe_nom {
+  text-align: center;
+  padding-top: 40px;
+ font-size: 40px;
+}
+
+.equipe_nom:hover {
+   transform: translateY(-8px);
+  
+  color: rgba(59, 130, 246, 0.5);
+  
+  transition: transform 0.3s ease;
+}
 
 
+.team_card {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap : 0.7em;
+  margin: 0 10px 80px;
+  margin-right: 10px;
+}
+
+.title-a {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.p_team_info {
+  font-family: "Sofia" ;
+  font-size: 23px;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+.p_team_info_a {
+  text-align: center;
+  font-family: "Sofia" ;
+  font-size: 23px;
+  padding: 10px;
+  
+}
